@@ -193,6 +193,8 @@ class CarDetailedInfo(carCapabilities: Map<String, Any?>, cdsMetrics: CDSMetrics
 	// categories
 	private val sportFields: List<Flow<String>> = listOf(
 			engineTemp, oilTemp,
+			tempInterior, tempExterior,
+			engineRpm, torque,
 			accelContact, brakeState,
 			engineRpm, torque,
 			drivingGearLabel, steeringAngle,
